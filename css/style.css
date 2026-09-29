@@ -1,0 +1,339 @@
+
+body{
+ font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+nav .icon-text .icon{
+    background-color: #FF5213;
+width: 50px;
+height: 50px;
+}
+
+nav .icon-text .text p{
+   
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+color: oklch(0.21 0.034 264.665);
+}
+
+nav .icon-text .text span{
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+color: oklch(0.551 0.027 264.364);
+}
+
+nav .nav-item i{
+    font-size: 20px;
+    color: #4A5565;
+    transition: color .1s .1s ease;
+}
+
+nav .nav-item i:hover{
+    color: orangered;
+}
+
+nav .nav-item img{
+    width: 40px;
+    height: 40px;
+    border: 1px solid orange;
+   
+}
+
+/* ************************* */
+
+section{
+    background-color: #FFFBEA;
+}
+
+section img{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    
+}
+
+section .col-lg-5 .rate{
+    top: 20px;
+    left: 15px;
+    box-shadow: 0px 3px 6px rgba(128, 128, 128, 0.333);
+}
+
+section .col-lg-5 .rate .num{
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+color: oklch(0.21 0.034 264.665);
+}
+
+section .col-lg-5 .rate .reviews{
+    font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+color: oklch(0.551 0.027 264.364);
+}
+
+section .col-lg-5 .details{
+    bottom: 30px;
+width: 90%;
+}
+section .col-lg-5 .details .fa-clock{
+    color: #FF6900;
+    font-size: 25px;
+}
+
+section .col-lg-5 .details .fa-fire-burner{
+    color: #FB2C36;
+    font-size: 25px;
+}
+
+section .col-lg-5 .details .fa-users{
+    color: #2B7FFF;
+    font-size: 25px;
+}
+
+section .col-lg-5 .details .text-1{
+    font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+color: oklch(0.551 0.027 264.364);
+}
+
+section .col-lg-5 .details p{
+    font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+color: oklch(0.21 0.034 264.665);
+}
+
+section .col-lg-7{
+    height: 800px; 
+}
+
+section .level-cuisine .level{
+    background-color: #DBFCE7;
+    color: oklch(0.527 0.154 150.069);
+    font-size: 12px;
+font-weight: 600;
+line-height: 16px;
+padding: 2px 10px;
+border-radius: 10px;
+}
+
+section .level-cuisine .cusinie{
+    background-color: #DBEAFE;
+color: oklch(0.488 0.243 264.376);
+font-size: 12px;
+font-weight: 600;
+line-height: 16px;
+padding: 2px 10px;
+border-radius: 10px;
+}
+
+
+section .head-icons .head h1{
+    font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+color: oklch(0.21 0.034 264.665);
+
+}
+
+section .head-icons .head  p{
+    font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+color: oklch(0.446 0.03 256.802);
+}
+
+
+section .head-icons .icons{
+    font-size: 18px;
+}
+
+
+section .head-icons .icon-1,
+section .head-icons .icon-2{
+    background-color: #FFEDD4;
+    color: #F54900;
+    padding: 12px 12px ;
+    border-radius: 10px;
+}
+
+
+section .note{
+    background-color: #FEF2F2;
+    box-shadow: -4px 0px 0  #FB2C36;
+}
+
+section .note .fa-triangle-exclamation{
+   color: #FB2C36;
+    font-size: 20px;
+}
+
+section .note p{
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+color: oklch(0.444 0.177 26.899);
+padding: 0;
+margin: 0;
+}
+
+section .note span{
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+color: oklch(0.577 0.245 27.325);
+}
+
+section .nav-link ,
+section .nav-link.active:disabled
+{
+    color: #6A7282; 
+}
+
+
+section .nav-item .nav-link.active{
+    color: orangered;
+}
+
+
+
+section .nav-item .nav-link.active ,
+section .nav-item .nav-link 
+{
+    border: none;
+    
+    transition: all .1s .1s ease;
+}
+
+section .nav-item .nav-link.active:hover,
+section .nav-item .nav-link:hover
+{
+    color: orangered;
+    border-bottom: 3px solid orangered ;
+}
+
+.nav{
+    --bs-nav-link-hover-color: orangered;
+}
+
+section .tab-content .tab1{
+    background-color: #FFF9EB;
+    width: auto;
+}
+
+section .steps-ing .num,
+section .steps-ins .num
+{
+    background-color: orangered;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+}
+
+section .steps-ing .text{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: oklch(0.373 0.034 259.733);
+}
+
+
+
+section .cards{
+    background-color: #F9FAFB;
+    margin-bottom: 20px;
+}
+
+section .cards i{
+width: 50px;
+    height: 45px;
+    font-size: 18px;
+}
+
+section .card1 .fa-fire{
+    color: orangered;
+    background-color: #FFEDD4;
+}
+
+section .card1 .fa-dumbbell{
+    background-color:#DBEAFE ;
+    color: #155DFC;
+}
+
+
+section .card2 .fa-wheat-awn{
+    background-color: #FEF9C2;
+    color: #D08700;
+}
+
+section .card2 .fa-droplet{
+    background-color:#FFE2E2 ;
+    color:#E7000B ;
+}
+
+section .card3 .fa-pagelines{
+    background-color: #DBFCE7;
+    color: #00A63E;
+}
+section .card3 .fa-cube{
+    background-color:#FCE7F3 ;
+    color:#E60076 ;
+}
+
+section .cards .type{
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+color: oklch(0.373 0.034 259.733);
+}
+
+section .cards .num{
+    font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+color: oklch(0.21 0.034 264.665);
+} */
+
+section .tab-pane{
+    height: 300px;
+   
+}
+
+section .tips-card{
+    background-color: #FFFBEB;
+    box-shadow: -3px 0px 0 #E17100;
+
+}
+
+section .fa-circle-check{
+    color:#E17100 ;
+    font-size: 18px;
+}
+
+section .tips-card p{
+ font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: oklch(0.373 0.034 259.733);   
+}
+
+section button.btn-rec{
+    background: linear-gradient(to right,#FF6400 ,#FB3135);
+    transition: all .1s .1s ease;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+section button.btn-rec:hover{
+    background:linear-gradient(to right,#F34500 ,#E80007) ;
+    transform: scale(1.1);
+}
+
+section .steps-ins{
+    height: 300px;
+}

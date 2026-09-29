@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="w-100 bg-white">
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container ">
+    <a class="navbar-brand " href="#">
+
+        <div class="icon-text d-flex align-items-center gap-3 ">
+            <div class="icon rounded-circle d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-utensils text-white "></i>
+            </div>
+            <div class="text">
+                <p class="m-0 p-0">What's For Dinner</p>
+                <span>Your daily meal inspiration</span>
+            </div>
+        </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-lg-0 d-flex flex-row justify-content-end align-items-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">
+            <i class="fa-solid fa-bookmark "></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+           <i class="fa-solid fa-gear"></i>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+           <img src="images\avatar-4.jpg" alt="" class="rounded-circle">
+          </a>
+        </li>
+        
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+    </nav>
+
+
+    <section >
+        <div class="container-md container-fluid">
+          
+          <div class="inner pt-4 pb-5  pt-5">
+            <div class="row d-flex justify-content-center align-items-start   mb-4  rounded-4 ms-0 ps-0 g-0  overflow-hidden" id="mealsRow">
+
+            <!-- <div class="col-lg-5 position-relative" >
+                <img src="images\photo-1546069901-ba9599a7e63c.jpeg" alt="" class=" rounded-start-4 " id="pics">
+
+                <div class="rate px-3 py-2 bg-white rounded-5 position-absolute">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <span class="num" id="rate-num">4.5</span>
+                  <span class="reviews" id="rate-review">(156 reviews)</span>
+                </div>
+
+                <div class="details bg-white p-3 rounded-4 d-flex justify-content-around align-items-center position-absolute translate-middle-x start-50">
+                  <div class="prep-time">
+                    <i class="fa-solid fa-clock ms-3"></i>
+                    <p class="text-1 m-0 p-0">Prep Time</p>
+                    <p class="text-center">20 min</p>
+                  </div>
+                  <div class="cook-time">
+                   <i class="fa-solid fa-fire-burner ms-3"></i>
+                    <p class="text-1 m-0 p-0 ">Cook Time</p>
+                    <p class="text-center">35 min</p> 
+                  </div>
+                  <div class="servings">
+                  <i class="fa-solid fa-users ms-3"></i>
+                  <p class="text-1 m-0 p-0">Servings</p>
+                  <p class="text-center">2 people</p>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-lg-7  pt-5 ps-5 overflow-y-scroll  bg-white">
+
+              <div class="level-cuisine d-flex justify-content-start align-items-start gap-2">
+                <div class="level" id="level"><span>Easy</span></div>
+                <div class="cusinie" id="cusinie"><span>Mediterranean</span></div>
+              </div>
+
+              <div class="head-icons d-flex justify-content-between align-items-start">
+                <div class="head">
+              <h1 class="mt-3" id="title">Mediterranean Quinoa Bowl</h1>
+              <p id="subtitle">Healthy bowl with quinoa, vegetables, and tahini dressing</p>
+            </div>
+
+            <div class="icons d-flex justify-content-start align-items-center gap-3 pe-5">
+              <div class="icon-1"><i class="fa-solid fa-bookmark"></i></div>
+              <div class="icon-2"><i class="fa-solid fa-share-nodes"></i></div>
+            </div>
+            </div>
+
+            <div class="note d-flex justify-content-start align-items-center gap-2 rounded-2 px-2 py-3 me-5">
+              <div class="icon"><i class="fa-solid fa-triangle-exclamation"></i></div>
+              <div class="text">
+                <p>Extended Preparation Time</p>
+                <span id="note">This recipe requires more than 45 minutes to prepare. Plan accordingly!</span>
+              </div>
+            </div> -->
+
+            
+
+<!-- Nav tabs -->
+<!-- <ul class="nav nav-tabs d-flex justify-content-around align-items-start me-5 mt-4" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="Ingredients-tab" data-bs-toggle="tab" data-bs-target="#Ingredients-tab-pane" type="button" role="tab" aria-controls="Ingredients-tab-pane" aria-selected="true">
+      <i class="fa-solid fa-book-open"></i>
+      Ingredients</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="Instructions-tab" data-bs-toggle="tab" data-bs-target="#Instructions-tab-pane" type="button" role="tab" aria-controls="Instructions-tab-pane" aria-selected="false">
+      <i class="fa-solid fa-book-open"></i>
+      Instructions
+    </button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="Nutrition-tab" data-bs-toggle="tab" data-bs-target="#Nutrition-tab-pane" type="button" role="tab" aria-controls="Nutrition-tab-pane" aria-selected="false">
+<i class="fa-solid fa-chart-pie"></i>
+      Nutrition
+    </button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="Tips-tab" data-bs-toggle="tab" data-bs-target="#Tips-tab-pane" type="button" role="tab" aria-controls="Tips-tab-pane" aria-selected="false">
+      <i class="fa-solid fa-lightbulb"></i>
+      Chef's Tips
+    </button>
+  </li>
+</ul> -->
+
+<!-- Tab panes -->
+<!-- <div class="tab-content  mt-4  me-5 " id="myTabContent"> -->
+
+  <!---------------- tab pane 1----------------- -->
+  <!-- <div class="tab-pane tab1 px-2 py-2 rounded-4 fade show active f" id="Ingredients-tab-pane" role="tabpanel" aria-labelledby="Ingredients-tab" tabindex="0"> -->
+
+
+<!-- <div class="steps-ing  ">
+
+  <div class="layout d-flex justify-content-start align-items-center gap-3 pt-2 ps-4">
+
+  <div class="num rounded-circle  text-white d-flex justify-content-center align-items-center " >1</div>
+  <div class="text " id="ingstep">1 cup quinoa</div>
+</div>
+
+<div class="layout d-flex justify-content-start align-items-center gap-3 pt-2 ps-4">
+  <div class="num rounded-circle  text-white d-flex justify-content-center align-items-center">2</div>
+  <div class="text" >Cherry tomatoes, halved</div>
+
+</div>
+
+<div class="layout d-flex justify-content-start align-items-center gap-3 pt-2 ps-4">
+  <div class="num rounded-circle  text-white d-flex justify-content-center align-items-center">3</div>
+  <div class="text">Cucumber, diced</div>
+</div>
+
+<div class="layout d-flex justify-content-start align-items-center gap-3 pt-2 ps-4">
+  <div class="num rounded-circle  text-white d-flex justify-content-center align-items-center">4</div>
+  <div class="text">Red onion, sliced</div>
+</div>
+
+<div class="layout d-flex justify-content-start align-items-center gap-3 pt-2 ps-4">
+  <div class="num rounded-circle  text-white d-flex justify-content-center align-items-center">5</div>
+  <div class="text">Kalamata olives</div>
+</div>
+
+<div class="layout d-flex justify-content-start align-items-center gap-3 pt-2 ps-4">
+  <div class="num rounded-circle  text-white d-flex justify-content-center align-items-center">6</div>
+  <div class="text">Feta cheese, crumbled</div>
+</div>
+
+<div class="layout d-flex justify-content-start align-items-center gap-3 pt-2 ps-4">
+  <div class="num rounded-circle  text-white d-flex justify-content-center align-items-center">7</div>
+  <div class="text">Fresh parsley</div>
+</div>
+
+<div class="layout d-flex justify-content-start align-items-center gap-3 pt-2 ps-4">
+  <div class="num rounded-circle  text-white d-flex justify-content-center align-items-center">8</div>
+  <div class="text">Tahini dressing</div>
+  </div>
+
+</div>
+ 
+</div> -->
+  <!-- ------------tab pane 2-------------------- -->
+  <!-- <div class="tab-pane fade " id="Instructions-tab-pane" role="tabpanel" aria-labelledby="Instructions-tab" tabindex="0">
+
+<div class="steps-ins overflow-y-scroll ">
+ 
+<div class="layout d-flex flex-nowrap justify-content-start align-items-center gap-3 pt-4 ps-4">
+  <div class="num rounded-3 p-3 text-white d-flex justify-content-center align-items-center">1</div>
+  <div class="text" id="inststep">Rinse quinoa thoroughly. Cook according to package directions, usually 15 minutes.</div>
+</div>
+
+
+<div class="layout d-flex flex-nowrap justify-content-start align-items-center gap-3 pt-4 ps-4">
+  <div class="num rounded-3 p-3 text-white d-flex justify-content-center align-items-center">2</div>
+  <div class="text">While quinoa cooks, prepare all vegetables and set aside.</div>
+</div>
+
+
+
+<div class="layout d-flex flex-nowrap justify-content-start align-items-center gap-3 pt-4 ps-4">
+  <div class="num rounded-3 p-3 text-white d-flex justify-content-center align-items-center">3</div>
+  <div class="text">For tahini dressing: mix tahini, lemon juice, garlic, and water until smooth.</div>
+</div>
+
+
+<div class="layout d-flex flex-nowrap justify-content-start align-items-center gap-3 pt-4 ps-4">
+  <div class="num rounded-3 p-3 text-white d-flex justify-content-center align-items-center">4</div>
+  <div class="text">Fluff cooked quinoa with a fork and let cool slightly.</div>
+</div>
+
+<div class="layout d-flex flex-nowrap justify-content-start align-items-center gap-3 pt-4 ps-4">
+  <div class="num rounded-3 p-3 text-white d-flex justify-content-center align-items-center">5</div>
+  <div class="text">Arrange quinoa in bowls. Top with tomatoes, cucumber, onion, and olives.</div>
+</div>
+
+<div class="layout d-flex flex-nowrap justify-content-start align-items-center gap-3 pt-4 ps-4">
+  <div class="num rounded-3 p-3 text-white d-flex justify-content-center align-items-center">6</div>
+  <div class="text">Sprinkle with feta cheese and fresh parsley. Drizzle with tahini dressing.</div>
+</div>
+
+
+
+
+
+
+</div>
+  </div> -->
+  <!-- ----------------tab pane 3-------------------- -->
+  <!-- <div class="tab-pane fade" id="Nutrition-tab-pane" role="tabpanel" aria-labelledby="Nutrition-tab" tabindex="0">
+    
+
+<div class="container">
+<div class="row g-3">
+
+  <div class="col-md-6"> -->
+
+    <!-- card1 -->
+   
+<!-- <div class="card1 cards px-3 rounded-3 sizes d-flex justify-content-between align-items-center">
+  <div class="icon px-3 py-2 d-flex justify-content-start align-items-center gap-3 ">
+    <i class="fa-solid fa-fire d-flex justify-content-center align-items-center rounded-3"></i>
+  <span class="type">Calories</span>
+  </div>
+
+  <div class="num"> 
+    <span id="calories-num" >480 kcal</span>
+  </div>
+</div> -->
+
+<!-- card2 -->
+
+<!-- <div class="card2 cards px-3 rounded-3 sizes d-flex justify-content-between align-items-center">
+  <div class="icon px-3 py-2 d-flex justify-content-start align-items-center gap-3 ">
+    <i class="fa-solid fa-wheat-awn d-flex justify-content-center align-items-center rounded-3"></i>
+  <span class="type">Carbohydrates</span>
+  </div>
+
+  <div class="num"> 
+    <span id="carbo-num" >58g</span>
+  </div>
+
+</div> -->
+
+<!-- card3  -->
+
+<!-- <div class="card3 cards px-3 rounded-3 sizes d-flex justify-content-between align-items-center">
+  <div class="icon px-3 py-2 d-flex justify-content-start align-items-center gap-3 ">
+    <i class="fa-brands fa-pagelines d-flex justify-content-center align-items-center rounded-3"></i>
+  <span class="type">Fiber</span>
+  </div>
+
+  <div class="num"> 
+    <span id="fiber-num" >10g</span>
+  </div>
+
+</div> -->
+
+
+<!-- ------ -->
+  <!-- </div> -->
+<!-- -------------------------- -->
+<!-- <div class="col-md-6"> -->
+
+    <!-- card1 -->
+<!-- <div class="card1 cards px-3 rounded-3 sizes d-flex justify-content-between align-items-center">
+  <div class="icon px-3 py-2 d-flex justify-content-start align-items-center gap-3 ">
+    <i class="fa-solid fa-dumbbell d-flex justify-content-center align-items-center rounded-3"></i>
+  <span class="type">Protein</span>
+  </div>
+
+  <div class="num"> 
+    <span id="protein-num" >18g</span>
+  </div>
+
+</div> -->
+<!-- card2 -->
+
+<!-- <div class="card2 cards px-3 rounded-3 sizes d-flex justify-content-between align-items-center">
+  <div class="icon px-3 py-2 d-flex justify-content-start align-items-center gap-3 ">
+    <i class="fa-solid fa-droplet d-flex justify-content-center align-items-center rounded-3"></i>
+  <span class="type">Fat</span>
+  </div>
+
+  <div class="num"> 
+    <span id="fat-num" >20g</span>
+  </div>
+
+</div> -->
+<!-- card3  -->
+
+<!-- <div class="card3 cards px-3 rounded-3 sizes d-flex justify-content-between align-items-center">
+  <div class="icon px-3 py-2 d-flex justify-content-start align-items-center gap-3 ">
+    <i class="fa-solid fa-cube d-flex justify-content-center align-items-center rounded-3"></i>
+  <span class="type">Sodium</span>
+  </div>
+
+  <div class="num"> 
+    <span id="sodium-num">540mg</span>
+  </div>
+
+</div> -->
+<!-- ---------- -->
+  <!-- </div> -->
+
+  <!-- ----------- -->
+  <!-- </div> -->
+
+
+
+ <!-- </div> -->
+
+
+      <!-- </div> -->
+
+    
+
+
+  <!-- ---------------tab pane 4-------------------- -->
+  <!-- <div class="tab-pane fade " id="Tips-tab-pane" role="tabpanel" aria-labelledby="Tips-tab" tabindex="0">
+
+<div class="tips-card p-2 my-3 d-flex justify-content-start gap-2 rounded-3">
+<i class="fa-solid fa-circle-check align-content-center"></i>
+<p id="tipsstep">Rinse quinoa well to remove bitter coating</p>
+</div>
+
+<div class="tips-card p-2 my-3 d-flex justify-content-start gap-2 rounded-3">
+<i class="fa-solid fa-circle-check align-content-center"></i>
+<p>Let quinoa cool before adding fresh ingredients</p>
+</div>
+
+
+<div class="tips-card p-2 my-3 d-flex justify-content-start gap-2 rounded-3">
+<i class="fa-solid fa-circle-check align-content-center"></i>
+<p>Make extra tahini dressing - it keeps well in the fridge</p>
+</div>
+
+<div class="tips-card p-2 my-3 d-flex justify-content-start gap-2 rounded-3 mb-5">
+<i class="fa-solid fa-circle-check align-content-center"></i>
+<p>Add grilled chicken or chickpeas for extra protein</p>
+</div>
+
+
+  </div> -->
+  <!-- --------------- -->
+<!-- </div> -->
+
+<!-- ------------------------------------------ -->
+
+<!-- <button type="button" class="px-3 py-2 rounded-3">
+  <i class="fa-solid fa-arrows-rotate"></i>
+  Try Another Recipe</button>
+
+             </div>
+  </div> -->
+
+
+</div>
+</div>
+           
+           
+
+        
+    </section>
+    
+
+    <script src="js\bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
